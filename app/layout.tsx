@@ -3,7 +3,6 @@ import { Zen_Kurenaido } from 'next/font/google';
 import "./globals.css";
 import { Suspense } from "react";
 import SplashScreen from "@/components/SplashScreen";
-import { setTimeout } from "node:timers/promises";
 
 const zenKurenaido = Zen_Kurenaido({
   weight: "400",
@@ -35,15 +34,9 @@ export default function RootLayout({
         className={zenKurenaido.className}
       >
         <Suspense fallback={<SplashScreen />} >
-          <LazyComponent />
           {children}
         </Suspense>
       </body>
     </html>
   );
-}
-
-async function LazyComponent() {
-  await setTimeout(2000);
-  return<></>;
 }
