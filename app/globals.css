@@ -1,26 +1,89 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+html {
+  scroll-behavior: smooth;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.flash {
+  animation: flicker 1.4s infinite alternate;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.flash_button {
+  animation: flicker 2.1s infinite alternate;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.8;
+  }
+  10% {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 0.7;
+  }
+  30% {
+    opacity: 0.6;
+  }
+  40% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.5;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+
+@keyframes scroll {
+  0% {
+    height: 0%;
+    top: 0px;
+    bottom: auto;
+  }
+  46% {
+    height: 100%;
+    top: 0px;
+    bottom: auto;
+  }
+  50% {
+    height: 100%;
+    bottom: 0px;
+    top: auto;
+  }
+  54% {
+    height: 100%;
+    bottom: 0px;
+    top: auto;
+  }
+  100% {
+    height: 0%;
+    bottom: 0px;
+    top: auto;
+  }
+}
+
+.scroll::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  background: #fff;
+  animation: scroll 1.5s linear infinite;
 }
