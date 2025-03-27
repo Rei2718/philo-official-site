@@ -5,7 +5,7 @@ html {
 }
 
 .flash {
-  animation: flicker 1.4s infinite alternate;
+  animation: flicker 2.1s infinite alternate;
 }
 
 .flash_button {
@@ -84,6 +84,37 @@ html {
   position: absolute;
   display: block;
   top: 0;
-  background: #fff;
+  background: linear-gradient(to top, rgba(226,225,210,1), rgba(0, 0, 0, 0));
   animation: scroll 1.5s linear infinite;
+}
+
+
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1.2s ease-out forwards;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
 }
