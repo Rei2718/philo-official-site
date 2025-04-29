@@ -60,7 +60,7 @@ export default function ProductsSection() {
               <h3 className="text-2xl font-semibold mb-8">How to Play</h3>
               <ol className="list-decimal list-inside leading-relaxed text-sm md:text-base space-y-2">
                 <li>テーマカードを1枚引きます</li>
-                <li>カードに書かれたキーワードについて自由に意見交換</li>
+                <li>カードに書かれたキーワードについて自由に意見を交換</li>
                 <li>深堀りしたい場合は追加カードを引いてさらに議論</li>
                 <li>気づきや面白い発想が生まれたら共有しましょう</li>
                 <li>スペシャルカードでゲームにサプライズをプラス</li>
