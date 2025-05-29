@@ -1,18 +1,18 @@
+import Image from 'next/image';
+
 /* eslint-disable @next/next/no-img-element */
 export default function ConceptSection() {
     return (
       <section id="concept" className="relative w-full h-svh z-10 bg-black">
         {/* Key Visual */}
         <div className="absolute inset-0 z-0">
-          <img
-            src="/main1.png"
+          <Image
+            fill
+            src="/main1.webp"
+            sizes="100svh,100svw"
+            quality={100}
             alt="Main1"
-            className="w-full h-full object-cover md:hidden opacity-80"
-          />
-          <img
-            src="/main1.png"
-            alt="Main1"
-            className="w-full h-full object-cover hidden md:block opacity-80"
+            className="w-full h-full object-cover opacity-80"
           />
         </div>
 

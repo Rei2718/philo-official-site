@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ContactSection() {
   return (
@@ -8,15 +8,13 @@ export default function ContactSection() {
       className="relative w-full h-svh z-10 bg-[#000000] overflow-hidden"
     >
       <div className="absolute inset-0">
-        <img
-          src="/main4.png"
+        <Image
+          fill
+          src="/main4.webp"
+          sizes="100svh,100svw"
+          quality={100}
           alt="Main4"
-          className="w-full h-full object-cover md:hidden opacity-80"
-        />
-        <img
-          src="/main4.png"
-          alt="Main4"
-          className="w-full h-full object-cover hidden md:block opacity-80"
+          className="w-full h-full object-cover opacity-80"
         />
       </div>
 

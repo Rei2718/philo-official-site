@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ProductsSection() {
   return (
@@ -8,15 +8,13 @@ export default function ProductsSection() {
       className="relative w-full min-h-screen z-10 bg-gradient-to-br from-[#dddcc0] to-[#e2ba89]"
     >
       <div className="absolute inset-0 z-0">
-        <img
-          src="/main3.png"
+        <Image
+          fill
+          src="/main3.webp"
+          sizes="100svh,100svw"
+          quality={100}
           alt="Main3"
-          className="w-full h-full object-cover md:hidden"
-        />
-        <img
-          src="/main3.png"
-          alt="Main3"
-          className="w-full h-full object-cover hidden md:block"
+          className="w-full h-full object-cover"
         />
       </div>
 
@@ -26,8 +24,11 @@ export default function ProductsSection() {
             Product
           </h2>
 
-          <img
-            src="/philoArtWork.png"
+          <Image
+            src="/philoArtWork.webp"
+            width={500}
+            height={500}
+            quality={100}
             alt="philoArtWork"
             className="mb-8 w-80 md:w-96 lg:w-104 mx-auto"
           />

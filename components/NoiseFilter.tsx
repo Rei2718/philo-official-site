@@ -1,5 +1,4 @@
 const NoiseFilter = () => {
-  const isAppleDevice = /Mac|iPhone|iPad|iPod/.test(navigator.userAgent);
 
   return (
     <>
@@ -20,7 +19,7 @@ const NoiseFilter = () => {
                         0 0 0 0.25 0"
           />
           <feComponentTransfer>
-            <feFuncA type="gamma" amplitude={isAppleDevice ? "1.2" : "0.2"} exponent="1" offset="0.1" />
+            <feFuncA type="gamma" amplitude="1.2" exponent="1" offset="0.1" />
           </feComponentTransfer>
         </filter>
       </svg>
