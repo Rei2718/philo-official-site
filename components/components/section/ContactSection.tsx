@@ -14,7 +14,7 @@ export default function ContactSection() {
           sizes="100svh,100svw"
           quality={100}
           alt="Main4"
-          className="w-full h-full object-cover opacity-80"
+          className="w-full h-full object-cover"
         />
       </div>
 
