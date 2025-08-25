@@ -38,13 +38,29 @@ export default function ContactSection() {
           深遠なストーリーテリングが
           <br />
           あなたを未知なる世界へと誘うでしょう。
+          <br />
+          <br />
+          <br />
+          Produced by 立命館慶祥高等学校 K-Tech
+          <br />
+          企画・開発メンバー
+          <br />
+          伊東志堂
+          <br />
+          稲荷久敬
+          <br />
+          芳賀智樹
+          <br />
+          山内大佳良
+          <br />
+          石川壱朗
         </p>
 
         <blockquote className="py-12">
           <p className="max-w-3xl text-md md:text-lg lg:text-xl mb-4 italic">
             - あなたの次なる冒険は、すぐそばにある。-
           </p>
-          <footer className="mt-4 text-right">- Ishikawa Ichiro</footer>
+          <footer className="mt-4 text-right">- 石川壱朗</footer>
         </blockquote>
 
         {/* Contactボタン */}
