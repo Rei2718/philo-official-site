@@ -39,7 +39,7 @@ export default function HeroSection() {
           <div className="relative h-svh w-hull">
             <Image
               fill
-              src="/main2.webp"
+              src="/main1.webp"
               sizes="100svh,100svw"
               quality={100}
               alt="Main2"
