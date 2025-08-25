@@ -110,6 +110,17 @@ export default function AnimatedFullscreenMenu() {
               className="h-7 w-7"
             />
           </Link>
+          <Link passHref
+            href="https://zenn.dev/p/keisho_tech"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/zenn-logo.webp"
+              alt="zenn"
+              className="h-7 w-7"
+            />
+          </Link>
         </div>
       </div>
     </>
