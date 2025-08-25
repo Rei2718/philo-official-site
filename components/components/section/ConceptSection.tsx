@@ -8,7 +8,7 @@ export default function ConceptSection() {
         <div className="absolute inset-0 z-0">
           <Image
             fill
-            src="/main1.webp"
+            src="/main2.webp"
             sizes="100svh,100svw"
             quality={100}
             alt="Main1"
