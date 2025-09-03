@@ -69,7 +69,7 @@ export default function ProductsSection() {
             </div>
           </div>
 
-          {/* Gameplay Demo */}
+          {/* Gameplay Demo 
           <div className="mb-20">
             <h3 className="text-2xl md:text-3xl font-semibold mb-8 text-[#F4F3E1]">
               Gameplay Demo
@@ -85,6 +85,7 @@ export default function ProductsSection() {
               ></iframe>
             </div>
           </div>
+          */}
 
           {/* What Players Say */}
           <div className="mb-12">
