@@ -69,7 +69,7 @@ export default function ContactSection() {
             <div className="flash_button absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-xl"></div>
             <Link
               passHref
-              href="https://keisho.tech/"
+              href="https://camp-fire.jp/projects/856862/view?utm_campaign=cp_share_c_msg_projects_show"
               className="
                 text-sm sm:text-base relative inline-flex items-center justify-center
                 w-36 sm:w-44 md:w-56 
