@@ -34,7 +34,7 @@ export default function ProductsSection() {
           />
 
           <p className="leading-relaxed text-sm md:text-base lg:text-lg mb-8 text-[#F4F3E1]">
-            PHILO!は「軽やかに、深く考える」
+            Philoは「軽やかに、深く考える」
             <br />
             思考ゲーム×ボードゲーム。
             <br />
@@ -94,15 +94,15 @@ export default function ProductsSection() {
             <div className="flex flex-col md:flex-row gap-6">
               <blockquote className="bg-[#F4F3E1d3] bg-opacity-80 rounded-lg shadow-2xl p-6 flex-1 transform hover:scale-105 transition-transform">
                 <p className="italic">
-                  PHILO!は毎回新しい発見があって、友達とのディスカッションが楽しくなります！
+                  Philoは毎回新しい発見があって、友達とのディスカッションが楽しくなります！
                 </p>
-                <footer className="mt-4 text-right">- Ishikawa Ichiro</footer>
+                <footer className="mt-4 text-right">I氏</footer>
               </blockquote>
               <blockquote className="bg-[#f4f3e1d3] bg-opacity-80 rounded-lg shadow-2xl p-6 flex-1 transform hover:scale-105 transition-transform">
                 <p className="italic">
                   シンプルなのに奥深いゲーム。プレイするたびに新しい戦略が見つかります。
                 </p>
-                <footer className="mt-4 text-right">- Ito Shido</footer>
+                <footer className="mt-4 text-right">- O氏</footer>
               </blockquote>
             </div>
           </div>
@@ -113,7 +113,7 @@ export default function ProductsSection() {
               <div className="flash_button absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-xl"></div>
               <Link
                 passHref
-                href="https://keisho.tech/"
+                href="https://camp-fire.jp/projects/856862/view?utm_campaign=cp_share_c_msg_projects_show"
                 className="
                   text-sm sm:text-base relative inline-flex items-center justify-center
                   w-36 sm:w-44 md:w-56 
